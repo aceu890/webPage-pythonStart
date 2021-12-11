@@ -1,0 +1,19 @@
+$ TÉCNICAS USADAS
+
+0. implementamos GIT
+1. preloads
+2. online icons (svg)
+3. normalize
+4. google fonts
+5. estructura HTML eficiente
+6. css grid
+7. css flexbox
+8. varibles de color CSS
+9. globales en el HTML
+10. scroll snap por secciones
+11. comentarios por secciones main
+12. box-shadows generator
+13. media queries
+
+
+
