@@ -154,7 +154,43 @@ span {
 
 /* Hero Imagen ================================================================ */
 .hero {
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.h2 {
+  background-image: url(../img/cursos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.h3 {
+  background-image: url(../img/blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.h4 {
+  background-image: url(../img/recursos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.h5 {
+  background-image: url(../img/contacto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
