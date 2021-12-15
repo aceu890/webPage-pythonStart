@@ -16,6 +16,7 @@ html {
   font-size: 62.5%;
   box-sizing: border-box; /*hack para el box model*/
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 /* SCROLL SNAP */
@@ -90,6 +91,11 @@ h3 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
 span {
   font-weight: bold;
   color: #dfd3b2f1;
@@ -155,42 +161,6 @@ span {
 /* Hero Imagen ================================================================ */
 .hero {
   background-image: url(../img/index.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.h2 {
-  background-image: url(../img/cursos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.h3 {
-  background-image: url(../img/blog.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.h4 {
-  background-image: url(../img/recursos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.h5 {
-  background-image: url(../img/contacto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
@@ -314,3 +284,4 @@ align-items: center;
 .footer {
   text-align: center;
 }
+

@@ -15,11 +15,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- PRELOADS CSS - personal sheets to final -->
     <link rel="preload" href="css/styles.css" as="style" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/stylesIndex.css" />
   </head>
   <body>
     <header>
-      <h1 class="titulo">Python Start</h1>
+      <a href="index.html"><h1 class="titulo">Python Start</h1></a>
     </header>
 
     <div class="nav-bg">
@@ -56,7 +56,7 @@
         </svg>
 
         <p>Aprende <span>Python </span>desde 0</p>
-        <a class="boton" href="#">Contactar</a>
+        <a class="boton" href="#contact">Contactar</a>
       </div>
       <!-- .contenido-hero -->
     </section>
@@ -125,7 +125,7 @@
         </section>
 
         <section class="servicio">
-          <h3>Desarrollo WEB</h3>
+          <h3>Cursos</h3>
           <div class="iconos">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@
             <legend>Contactános llenando todos los campos</legend>
             <div class="contenedor-campos">
                 <div class="campo">
-                  <label>Nombre</label>
+                  <label id="contact">Nombre</label>
                   <input class="input-text" type="text" placeholder="Tu nombre" />
                 </div>
 
